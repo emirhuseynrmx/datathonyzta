@@ -98,14 +98,6 @@ source venv/bin/activate          # Windows: venv\Scripts\activate
 pip install -e ".[dev]"
 ```
 
-Veriyi `data/raw/` altına koy:
-```
-data/raw/train.csv
-data/raw/test_x.csv
-data/raw/sample_submission.csv
-```
-
----
 
 ## CLI Kullanımı
 
