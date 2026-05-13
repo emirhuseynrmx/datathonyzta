@@ -94,9 +94,12 @@ data/raw/
 git clone https://github.com/emirhuseynrmx/datathonyzta.git
 cd datathonyzta
 
+# uv ile (önerilen — lock dosyası ile tam tekrarlanabilir ortam)
+uv sync
+
+# pip ile (alternatif)
 python -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
-
 pip install -e ".[dev]"
 ```
 
