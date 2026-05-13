@@ -215,41 +215,6 @@ L3  Optuna blend               — L1/L2 ağırlıklarını optimize eder
 
 ---
 
-## Veri Analizi Bulguları
-
-Tam analiz: [`deep_dive_results.txt`](deep_dive_results.txt)
-
-### En Güçlü Sayısal Özellikler
-
-| Özellik | Pearson r | Spearman r | Not |
-|---|---|---|---|
-| `stres_skoru` | -0.493 | -0.549 | Non-linear etki |
-| `rem_yuzdesi` | +0.443 | +0.424 | |
-| `gunluk_calisma_saati` | -0.342 | -0.340 | |
-| `derin_uyku_yuzdesi` | +0.280 | +0.269 | |
-| `gecelik_uyanma_sayisi` | -0.270 | -0.259 | |
-
-### En Güçlü İkili Etkileşimler
-
-| Etkileşim | r |
-|---|---|
-| `stres_skoru / rem_yuzdesi` | -0.603 ← en güçlü |
-| `stres_skoru / derin_uyku_yuzdesi` | -0.520 |
-| `stres_skoru × gunluk_calisma_saati` | -0.464 |
-| `rem_yuzdesi × derin_uyku_yuzdesi` | +0.462 |
-
-### Kategorik Özellik Etkileri
-
-| Değişken | Grup Spread | En Yüksek | En Düşük |
-|---|---|---|---|
-| `meslek` | 3.22 | Emekli (7.94) | Lawyer (4.72) |
-| `ruh_sagligi_durumu` | 2.90 | Sağlıklı (6.49) | Anks.+Dep. (3.59) |
-| `gun_tipi` | 1.51 | Hafta sonu (6.99) | Hafta içi (5.48) |
-| `kronotip` | 0.20 | Sabah insanı (6.00) | Gece insanı (5.80) |
-| `ulke` | 0.13 | — (zayıf sinyal) | — |
-
----
-
 ## Proje Yapısı
 
 ```
