@@ -13,6 +13,8 @@
 
 *YZTA 2026 Datathon · Takım 75 · LB RMSE: 1.20356*
 
+> **Not:** Bu yarışma yalnızca YZTA bursiyerlerine özeldir.
+
 </div>
 
 ---
