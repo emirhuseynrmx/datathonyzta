@@ -91,8 +91,8 @@ data/raw/
 ## Kurulum
 
 ```bash
-git clone https://github.com/<username>/yzta-datathon-core
-cd yzta-datathon-core
+git clone https://github.com/emirhuseynrmx/datathonyzta.git
+cd datathonyzta
 
 python -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
