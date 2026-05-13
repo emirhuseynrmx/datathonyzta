@@ -249,12 +249,14 @@ L3  Optuna blend               — L1/L2 ağırlıklarını optimize eder
 
 ---
 
-## Geliştirici
+## Takım 75
 
 **Emir Hüseyin İncı**
 
 [![GitHub](https://img.shields.io/badge/GitHub-emirhuseynrmx-181717?style=flat&logo=github)](https://github.com/emirhuseynrmx)
 [![Email](https://img.shields.io/badge/Email-emirhuseyininci%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:emirhuseyininci@gmail.com)
+
+**İlayda Pekar Özdemir** — Yardımcı Geliştirici
 
 ---
 
