@@ -224,6 +224,7 @@ L3  Optuna blend               — L1/L2 ağırlıklarını optimize eder
 .
 ├── datathoncore.py          # CLI giriş noktası
 ├── download_data.py         # Kaggle'dan veri indirme
+├── round_submission.py      # Submission CSV'yi 2 ondalığa yuvarla
 ├── final_push.py            # Standalone CB+LGB+XGB blend
 ├── pyproject.toml           # Bağımlılıklar, ruff, mypy ayarları
 ├── .env.example             # Ortam değişkenleri şablonu
